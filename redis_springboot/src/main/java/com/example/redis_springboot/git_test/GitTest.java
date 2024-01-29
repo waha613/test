@@ -31,5 +31,6 @@ public class GitTest {
         } else {
             System.out.println("谢谢惠顾");
         }
+        System.out.println("hahah");
     }
 }

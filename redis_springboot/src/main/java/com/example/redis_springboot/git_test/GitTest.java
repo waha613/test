@@ -8,7 +8,7 @@ public class GitTest {
         Msg msg = new Msg();
         msg.setAge("9");
         msg.setName("hahh");
-        msg.setBorthDate("2022");
+        msg.setBirthDate("2022");
 
         if (StringUtils.isEmpty(msg.getAge())) {
             return;
@@ -18,14 +18,18 @@ public class GitTest {
             return;
         }
 
-        if (StringUtils.isEmpty(msg.getBorthDate())) {
+        if (StringUtils.isEmpty(msg.getBirthDate())) {
             return;
         } else {
-            if (msg.getBorthDate().equals("2022")){
-                System.out.println("生日快乐");
-            } else {
-                System.out.println("谢谢惠顾");
-            }
+            check(msg.getBirthDate());
+        }
+    }
+
+    private void check(String borthDate) {
+        if (borthDate.equals("2022")){
+            System.out.println("生日快乐");
+        } else {
+            System.out.println("谢谢惠顾");
         }
     }
 }

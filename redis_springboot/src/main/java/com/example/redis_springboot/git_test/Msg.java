@@ -3,7 +3,7 @@ package com.example.redis_springboot.git_test;
 public class Msg {
     private String name;
     private String age;
-    private String borthDate;
+    private String birthDate;
 
     public String getName() {
         return name;
@@ -21,11 +21,11 @@ public class Msg {
         this.age = age;
     }
 
-    public String getBorthDate() {
-        return borthDate;
+    public String getBirthDate() {
+        return birthDate;
     }
 
-    public void setBorthDate(String borthDate) {
-        this.borthDate = borthDate;
+    public void setBirthDate(String borthDate) {
+        this.birthDate = borthDate;
     }
 }
